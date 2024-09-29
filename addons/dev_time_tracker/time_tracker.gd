@@ -49,7 +49,7 @@ func update_total_hours(new_hours: int, new_minutes: int):
 	# Read all the lines in the file.
 	while not file.eof_reached():
 		var line = file.get_line()
-		if line.strip_edges() != "" or lineNb<5:  # Add only non-empty lines
+		if line.strip_edges() != "" or lineNb<5:  # Add only non-empty lines after header.
 			lines.append(line)
 		lineNb+=1
 	file.close()
