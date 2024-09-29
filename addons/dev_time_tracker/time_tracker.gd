@@ -64,7 +64,7 @@ func update_total_hours(new_hours: int, new_minutes: int):
 			# Convert everything to total minutes.
 			total_minutes = (existing_hours * 60) + existing_minutes + (new_hours * 60) + new_minutes
 			# Update the line with the new total time in hours and minutes.
-			lines[i] = "# Total hours: " + str(total_minutes / 60) + " heure(s) et " + str(total_minutes % 60) + " minute(s)"
+			lines[i] = "# Total hours: " + str(total_minutes / 60) + " hour(s) and " + str(total_minutes % 60) + " minute(s)"
 			break
 
 	# Write the updated lines back to the file.
