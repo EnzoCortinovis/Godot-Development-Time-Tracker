@@ -9,7 +9,7 @@ The Godot Development Time Tracker is a plugin designed to help developers track
 - Works from **4.0 to *at least* 4.3**
 
 ## Installation
-1. Download the plugin from the [Godot Asset Library](https://godotengine.org/asset-library) or **here**.
+1. Download the plugin from the [Godot Asset Library](https://godotengine.org/asset-library/asset/3380) or **here**.
 2. Extract the downloaded zip file.
 3. Copy the `addons` folder to your Godot project directory.
 4. Enable the plugin in your project settings:
@@ -23,7 +23,7 @@ The logs will be in the following format:
 ```
 #############################################################
 # Overall time spent on the <YourProjectName> project :
-# Total hours: 15 heure(s) et 0 minute(s)
+# Total hours: 9 hour(s) and 5 minute(s)
 #############################################################
 
 Session of 6 hour(s) and 9 minute(s).  on 01/01/1970
