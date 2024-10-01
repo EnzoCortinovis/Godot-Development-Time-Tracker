@@ -6,6 +6,7 @@ The Godot Development Time Tracker is a plugin designed to help developers track
 ## Features
 - Automatic tracking of development time
 - Detailed time logs
+- Works from 4.0 to *at least* 4.3
 
 ## Installation
 1. Download the plugin from the [Godot Asset Library](https://godotengine.org/asset-library) or **here**.
